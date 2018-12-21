@@ -13,6 +13,10 @@ public class utilsort {
      * @return
      */
     public static int[] arraysSort(int[] array) {
+        /**
+         *
+         * 采用了TimSort排序算法，是对归并算法的一种优化算法，最差的时间复杂度为O(nlogn)，稳定，但是需要利用额外空间
+         */
         Arrays.sort(array);
         return array;
     }

@@ -26,10 +26,6 @@ public class InsertSort {
                 }
             }
             array[j + 1] = value;
-            for (int x : array) {
-                System.out.print(x + " ");
-            }
-            System.out.println();
         }
         return array;
     }

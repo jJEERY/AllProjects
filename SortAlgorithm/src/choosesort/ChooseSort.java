@@ -31,10 +31,6 @@ public class ChooseSort {
                 array[flag] = array[i];
                 array[i] = temp;
             }
-            for (int x : array) {
-                System.out.print(x + " ");
-            }
-            System.out.println();
         }
         return array;
     }
